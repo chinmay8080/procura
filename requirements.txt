@@ -1,0 +1,10 @@
+streamlit
+pandas
+plotly
+yfinance
+scikit-learn
+keras
+numpy
+requests
+tensorflow-cpu
+statsmodels
