@@ -7,7 +7,7 @@ pages = [
     st.Page("03_3️⃣_Customer_Product_Segmentation.py", title="Customer & Product Segmentation", icon="👥"),
     st.Page("04_4️⃣_Statistical_Tests.py", title="Statistical Tests", icon="🧮"),
     st.Page("05_5️⃣_EDA_Insights.py", title="EDA Insights", icon="📈"),
-    st.Page("05_5️⃣_EDA_Insights.py", title="EDA Insights", icon="📈"),
+    st.Page("06_6️⃣_Business_Analytics.py", title="Business Analytics", icon="📊"),
 ]
 
 page = st.navigation(pages)
