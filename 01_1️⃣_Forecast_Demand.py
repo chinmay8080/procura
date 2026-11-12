@@ -33,7 +33,9 @@ st.sidebar.markdown(
 
 # Add a button on the sidebar to trigger training
 if st.sidebar.button("Train Model and Forecast"):
-    from keras.callbacks import EarlyStopping
+    
+from keras.callbacks import EarlyStopping
+
     from keras.models import Sequential
     from keras.layers import Input, LSTM, Dense, Dropout
     from keras.optimizers import Adam
